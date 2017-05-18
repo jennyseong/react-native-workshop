@@ -19,7 +19,7 @@ class Search extends Component {
         <NavigatorIOS
           style={styles.container}
           translucent={false}
-          barTintColor='#c4302b'
+          barTintColor='#a021b5'
           titleTextColor='white'
           tintColor='white'
           initialRoute={{

@@ -26,8 +26,9 @@ const styles = StyleSheet.create({
   },
   thumbnail: {
     width: 80,
-    height: 80,
+    height: 60,
     marginRight: 10,
+    borderRadius: 3,
   },
   rightContainer: {
     flex: 1,
@@ -42,7 +43,7 @@ const styles = StyleSheet.create({
   },
   separator: {
     height: 1,
-    backgroundColor: '#dddddd',
+    backgroundColor: '#d8c7e6',
   },
   listView: {
     backgroundColor: 'white',
@@ -122,9 +123,9 @@ class VideoList extends Component {
     return (
       <View style={{ marginBottom: 150 }}>
         <Search
-          backgroundColor="#c4302b"
+          backgroundColor="#a021b5"
           showsCancelButton={false}
-          textFieldBackgroundColor="#c4302b"
+          textFieldBackgroundColor="#a021b5"
           onChangeText={(query) => {
             this.setState({ query });
               // Call fetchData here!
